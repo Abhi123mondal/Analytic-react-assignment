@@ -1,0 +1,104 @@
+.Container_1{
+    height: 50%;
+    width:70%;
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .Container_2{
+       width: 100%;
+       height: 8vh;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: #17f6d5;
+   }
+   .Container_2 h1{
+     margin-left: 1rem;
+     color: white;
+     font-weight: 400;
+   }
+   .Container_2 input{
+       width: 30%;
+       padding :5px 10px;
+       margin-right: 1rem;
+       outline: none;
+   }
+   
+   table {
+       width: 100%;
+       height: 100%;
+       border-collapse: collapse;
+       margin-bottom: 0.5rem;
+       margin: 0rem 1rem;
+     }
+     table th,
+     table  td {
+       padding: 10px;
+       text-align: left;
+     }
+     table th {
+       font-size: 0.9rem;
+       background-color: #f3df07;
+       color: black;
+       font-weight: 500;
+     }
+   
+     table tbody a{
+       text-decoration: none;
+   
+     }
+    table tbody tr:nth-child(odd) {
+     background-color: #f27070;
+   }
+   
+   
+     
+   table tbody tr:nth-child(even) {
+     background-color: white;
+   }
+   
+   table tbody tr:hover{
+     background-color: rgb(234, 41, 144);
+     cursor: pointer;
+   
+   }
+   .paginations{
+   
+   margin: 1rem;
+   }
+   button{
+     padding: 5px 10px;
+     margin: 0.5rem;
+     cursor: pointer;
+     color: #131312;
+   }
+   .numbers {
+       padding: 5px 10px;
+       margin: 0.5rem;
+       background-color: transparent;
+       color: #183032;
+       border:none;
+       border-radius: 50%;
+       font-size: 0.9rem;
+   
+     }
+     
+     .disabled {
+       opacity: 0.5;
+       pointer-events: none;
+     }
+   
+     .user_container{
+       width: 100%;
+       height: 20vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+       padding: 1rem;
+       background-color: #958ae8;
+       color: white;
+     }
